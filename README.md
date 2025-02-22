@@ -1,1 +1,1 @@
-# Practica1_Prog2
+# Practica1_Prog2 Trabaja Oriol
