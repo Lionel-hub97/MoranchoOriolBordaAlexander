@@ -1,5 +1,6 @@
 package prog2.model;
 import java.util.*;
+
 public class Camping {
     public void afegirParcela(String nom, String idAllotjament, float metres, boolean connexioElectrica) {
     }

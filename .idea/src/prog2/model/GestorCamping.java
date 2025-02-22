@@ -1,4 +1,3 @@
-
 package prog2.model;
 import prog2.model.Camping;
 
@@ -17,7 +16,7 @@ public class GestorCamping {
         Camping campingMar = new Camping("Camping del Mar");
 
         omplirDadesModel(campingMar);
-        
+
         ferReserves(campingMar);
 
 
@@ -37,16 +36,16 @@ public class GestorCamping {
         // >> L'allotjament amb estada mínima de la temporada baixa més curta és el següent:
         //--------------------------------------------------------------------------------------------------
         // Per completar
-       
+
     }
-    
+
     /**
      * Mètode de classe per afegir parcel·les, bungalows, bungalows premium, glampings, mobil-home i clients al càmping.
      * @param camping L'objecte de tipus Camping que anem a omplir
      */
     private static void omplirDadesModel(Camping camping){
-        
-        
+
+
         // Afegir parcel·les:
         //------------------------------
         String nom = "Parcel·la Nord";
@@ -58,7 +57,7 @@ public class GestorCamping {
 
         nom = "Parcel·la Sud";
         idAllotjament = "101P";
-        
+
         camping.afegirParcela(nom, idAllotjament, metres, connexioElectrica);
 
 
@@ -101,7 +100,7 @@ public class GestorCamping {
         aireFred = false;
         boolean serveisExtra = true;
         String codiWifi = "CampingDelMarBP1";
-        
+
         camping.afegirBungalowPremium(nom, idAllotjament, mida, habitacions, placesPersones, placesParquing, terrassa, tv, aireFred, serveisExtra, codiWifi);
 
         nom = "Bungallow Sud";
@@ -180,15 +179,15 @@ public class GestorCamping {
             System.out.println(ex.getMessage());
         }
     }
-    
+
     /**
      * Mètode per fer reserves d'allotjaments.
      * @param camping
      */
     private static void ferReserves(Camping camping){
-        
+
         // Per completar:
-        
+
         // 1. Afegeix una reserva pel client amb DNI "12345678X" de l'allotjament amb identificador "100P"
         // amb la data d'entrada 20 de Febrer del 2025 i data de sortida 28 de febrer del 2025.
 
@@ -203,7 +202,7 @@ public class GestorCamping {
 
         // Intentar afegir la reserva amb la informació indicada i si no és possible mostrar el missatge d'error.
         // Per completar
-        
+
         // 2. Afegeix una reserva pel client amb DNI "78659101A" de l'allotjament amb identificador "100P"
         // amb la data d'entrada 25 de Febrer del 2025 i data de sortida 28 de febrer del 2025.
 
@@ -212,16 +211,16 @@ public class GestorCamping {
 
         // Intentar afegir la reserva amb la informació indicada i si no és possible mostrar el missatge d'error.
         // Per completar
-           
+
         // 3. Afegeix una reserva pel client amb DNI "789101A" de l'allotjament amb identificador "300S"
         // amb la data d'entrada 25 de Febrer del 2025 i data de sortida 28 de febrer del 2025.
 
-        // Assigna els nous valors a les variables.    
+        // Assigna els nous valors a les variables.
         // Per completar
 
         // Intentar afegir la reserva amb la informació indicada i si no és possible mostrar el missatge d'error.
         // Per completar
-        
+
     }
-    
+
 }
