@@ -1,7 +1,13 @@
 package prog2.model;
+
+import prog2.vista.*;
 import java.util.*;
 
 public class Camping {
+    private String name;
+    Camping (String name) {
+        this.name = name;
+    }
     public void afegirParcela(String nom, String idAllotjament, float metres, boolean connexioElectrica) {
     }
 
