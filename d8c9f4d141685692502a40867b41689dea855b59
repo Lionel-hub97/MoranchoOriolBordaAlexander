@@ -1,0 +1,119 @@
+[33mcommit 5a6f3749a0da5e288bdd42186b1263ddfe3c4efd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Sun Feb 23 18:24:27 2025 +0100
+
+    nada importante
+
+[33mcommit a29c3988b35e22f4ae50d23dc1ae56571e5f0e3a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Sun Feb 23 15:38:13 2025 +0100
+
+    nada importante
+
+[33mcommit 36ae82558d8e3a77225e9ae20ca51869ed7ccf18[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Sun Feb 23 14:43:34 2025 +0100
+
+    Ningun error que salte a primeras a parte de que aun no hemos declarado ninguna funcionalidad, pero por lo demas no hay errores de sintaxis por asi decirlo, el problema con LLista resrvas es exactamente de faltaba declarar la clase LListaReserves.
+
+[33mcommit d8c9f4d141685692502a40867b41689dea855b59[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Sat Feb 22 23:27:42 2025 +0100
+
+    E resuelto algunos problemas que al parecer es moejjor utilizar * como hacemos con el java.util.* en vez de busacr la clase en especifico y pero por otro lado aun hay un error en InCamping linea 25, y no entindo que es le preugnte a chatgpt y por lo que entinedo es un tippo de dato que debemos crear o eso entendi, como si fuera un int o algo asi NS
+
+[33mcommit 3cb324466ea93caa1d0414a20686699a1f9f8694[m
+Author: Lionel-hub97 <albc9876@gmail.com>
+Date:   Sat Feb 22 23:14:50 2025 +0100
+
+    Update README.md
+
+[33mcommit 62b185e0290aba7763409b4b32e84f28f571edc5[m
+Author: Lionel-hub97 <albc9876@gmail.com>
+Date:   Sat Feb 22 23:14:32 2025 +0100
+
+    Update README.md
+
+[33mcommit ea6cfb45ad17bcabae18c1101a932b6ec9f0c1cb[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Sat Feb 22 23:14:03 2025 +0100
+
+    ns
+
+[33mcommit 35b756cb1a13b25bc562c4d836602db5008edaad[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Sat Feb 22 23:09:47 2025 +0100
+
+    Camping delcaradas sus metodos pero no que hace, el error de la calsse gestpr camping prosigue, ns como hacer que no de error, no detecta la classe camping
+
+[33mcommit 616c71e713279890ab133b7e367d637a086c2d0f[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Sat Feb 22 22:50:10 2025 +0100
+
+    Añadi algunas classes mas
+
+[33mcommit 2bf2936b978161466fae340476de1b3448687850[m
+Author: Lionel-hub97 <albc9876@gmail.com>
+Date:   Sat Feb 22 20:31:51 2025 +0100
+
+    Update README.md
+
+[33mcommit 32f4631583573b9499fabda6f2dfac94af6ac0bc[m
+Author: Morancho <oriolmn2006@gmail.com>
+Date:   Thu Feb 20 13:53:56 2025 +0100
+
+    Codi base implementat
+
+[33mcommit 4697a972e826e9975df7578baeebffa52445f9d5[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Thu Feb 20 13:39:45 2025 +0100
+
+    archivo ejemplo creado
+
+[33mcommit 2a91e48433fadb74f00144c4f3cb0ced52370ffb[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Thu Feb 20 13:39:02 2025 +0100
+
+    archivo ejemplo creado
+
+[33mcommit cccb52a84b03813eb3ac0c1541da4225e1a4dc28[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Thu Feb 20 13:38:33 2025 +0100
+
+    archivo ejemplo creado
+
+[33mcommit 75ef1bacafe9611ba28cc29ca03e4805a6b225b8[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Thu Feb 20 13:37:48 2025 +0100
+
+    archivo ejemplo creado
+
+[33mcommit cb8db74706259b40cc8235fe29ae54a409118c4a[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Thu Feb 20 13:36:51 2025 +0100
+
+    archivo ejemplo creado
+
+[33mcommit 6ae12d6b67f81ab81397f0dd3616798e4fc2f6fe[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Thu Feb 20 13:33:23 2025 +0100
+
+    archivo ejemplo creado
+
+[33mcommit accb6d811c5c58f51491b342a3c5016b62887ef6[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Thu Feb 20 13:31:40 2025 +0100
+
+    Cree los packages
+
+[33mcommit 2a01ee45f1746b166bc5717648071047853105f8[m
+Author: albc9 <abordach108@ub.edu.cat>
+Date:   Thu Feb 20 13:29:02 2025 +0100
+
+    Cree los packages
+
+[33mcommit 74f763cad104db22a2b0fbaf666d9f1e9ac34f4f[m
+Author: Lionel-hub97 <albc9876@gmail.com>
+Date:   Thu Feb 20 13:24:46 2025 +0100
+
+    Initial commit

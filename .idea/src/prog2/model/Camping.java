@@ -1,9 +1,9 @@
 package prog2.model;
-
-import prog2.vista.*;
 import java.util.*;
+import prog2.vista.*;
 
 public class Camping {
+
     private String name;
     Camping (String name) {
         this.name = name;
