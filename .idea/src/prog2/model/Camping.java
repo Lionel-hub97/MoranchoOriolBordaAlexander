@@ -6,7 +6,7 @@ public class Camping {
 
     private String nom;
 
-    Camping (String name) {
+    public Camping (String name) {
         this.nom = name;
     }
 
