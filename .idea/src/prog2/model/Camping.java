@@ -4,10 +4,19 @@ import prog2.vista.*;
 
 public class Camping {
 
-    private String name;
+    private String nom;
+
     Camping (String name) {
-        this.name = name;
+        this.nom = name;
     }
+
+    private String idAllotjament, mida, nomClient, dni, codiWifi, material;
+    private float metres;
+    private int habitacions, placesPersones, placesParquing;
+    private boolean connexioElectrica, terrassa, tv, aireFred, serveisExtra, casaMascota, terrassaBarbacoa;
+
+
+
     public void afegirParcela(String nom, String idAllotjament, float metres, boolean connexioElectrica) {
     }
 

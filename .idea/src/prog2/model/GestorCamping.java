@@ -23,6 +23,7 @@ public class GestorCamping {
 
 
 
+
         // Calcular la mida total de les parcel·les (en M^2) del Càmping i mostrar un missatge de la següent manera:
         // >> La mida total de les parcel·les del Càmping del Mar és de X m^2)
         //--------------------------------------------------------------------------------------------------------------------
