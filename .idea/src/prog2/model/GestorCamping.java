@@ -2,7 +2,7 @@ package prog2.model;
 
 import prog2.model.*;
 import prog2.vista.*;
-
+import java.util.*;
 
 /**
  * Classe per gestionar els allotjaments del Càmping del Mar.
@@ -187,6 +187,13 @@ public class GestorCamping {
      * @param camping
      */
     private static void ferReserves(Camping camping){
+
+        // REGEX PARA EL DNI: "^\d{8}[A-Z]$"
+
+
+        String idAllotjament;
+        String dni;
+
 
         // Per completar:
 
