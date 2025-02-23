@@ -45,7 +45,7 @@ public class GestorCamping {
      * Mètode de classe per afegir parcel·les, bungalows, bungalows premium, glampings, mobil-home i clients al càmping.
      * @param camping L'objecte de tipus Camping que anem a omplir
      */
-    private static void omplirDadesModel(Camping camping){
+    private static void omplirDadesModel(Camping camping) {
 
 
         // Afegir parcel·les:
@@ -188,11 +188,13 @@ public class GestorCamping {
      */
     private static void ferReserves(Camping camping){
 
-        // REGEX PARA EL DNI: "^\d{8}[A-Z]$"
+        // REGEX PARA EL DNI: "^\d{8}[A-Z]$" NS SI HACE FALTA
 
 
-        String idAllotjament;
-        String dni;
+        String idAllotjament = "100P";
+        String dni = "12345678X";
+
+
 
 
         // Per completar:
