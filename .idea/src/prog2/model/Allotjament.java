@@ -1,10 +1,10 @@
 package prog2.model;
 
-public class Allotjament {
+public class Allotjament implements Comparable<Allotjament> {
      String nom;
      String idAllotjament;
-     long estadaMinimaALTA;
-     long estadaMinimaBAIXA;
+     static long estadaMinimaALTA;
+     static long estadaMinimaBAIXA;
 
     // Constructor
     public Allotjament(String nom, String idAllotjament, long estadaMinimaALTA, long estadaMinimaBAIXA) {
@@ -13,6 +13,7 @@ public class Allotjament {
         this.estadaMinimaALTA = estadaMinimaALTA;
         this.estadaMinimaBAIXA = estadaMinimaBAIXA;
     }
+    public enum Temp {ALTA, BAIXA};
 
 
     public String getNom() {
@@ -30,12 +31,13 @@ public class Allotjament {
     public void setId(String idAllotjament) {
         this.idAllotjament = idAllotjament;
     }
-    enum Temp {
-        ALTA,
-        BAIXA
-    }
 
-    public long getEstadaMinima(Temp temp) {
+
+
+
+
+
+    public static long getEstadaMinima(Temp temp) {
         switch (temp) {
             case ALTA:
                 return estadaMinimaALTA;

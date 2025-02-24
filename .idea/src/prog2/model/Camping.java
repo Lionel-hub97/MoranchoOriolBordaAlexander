@@ -2,16 +2,18 @@ package prog2.model;
 import java.time.LocalDate;
 import java.util.*;
 import prog2.vista.*;
+import prog2.model.*;
 
-public class Camping {
+
+public class Camping  implements InCamping{
 
     private String nom;
     private ArrayList<Allotjament> allotjaments;
     private ArrayList<Reserva> reserves;
     private ArrayList<Client> clients;
 
-    public Camping (String nom) {
-        this.nom = nom;
+    public Camping () {
+        this.nom = "Camping del mar";
         this.allotjaments = new ArrayList<>();
         this.reserves = new ArrayList<>();
         this.clients = new ArrayList<>();
@@ -22,8 +24,8 @@ public class Camping {
     private int habitacions, placesPersones, placesParquing;
     private boolean connexioElectrica, terrassa, tv, aireFred, serveisExtra, casaMascota, terrassaBarbacoa;
 
-    public String getNom(String nom){
-        return nom;
+    public String getNom(){
+        return this.nom;
     }
 
 
@@ -65,9 +67,7 @@ public class Camping {
     }
 
 
-    public String getNom() {
-        return "";
-    }
+
 
 
     public LlistaReserves getLlistaReserves() {
@@ -102,4 +102,21 @@ public class Camping {
     public void afegirClient(String nomClient, String dni) throws ExcepcioReserva {
     }
 
+    /** Acabar, dona errors:
+    public static Allotjament.Temp getTemporada(LocalDate data) {
+        int dia = data.getDayOfMonth();
+        int mes = data.getMonthValue();
+        Allotjament.getEstadaMinima()
+        // Temporada ALTA: 21 març - 20 setembre
+
+        if ((mes > 3 && mes < 9) || (mes == 3 && dia >= 21) || (mes == 9 && dia <= 20)) {
+
+        }
+            return Allotjament.Temp.ALTA;
+        }
+        // Temporada BAIXA: 21 setembre - 20 març
+        else {
+            return Allotjament.Temp.BAIXA;
+        }
+     **/
 }
