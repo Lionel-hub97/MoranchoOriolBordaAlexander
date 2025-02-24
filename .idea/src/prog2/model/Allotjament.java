@@ -1,18 +1,19 @@
 package prog2.model;
 
 public class Allotjament {
-    private String nom;
-    private String idAllotjament;
-    private long estadaMinimaALTA;
-    private long estadaMinimaBAIXA;
+     String nom;
+     String idAllotjament;
+     long estadaMinimaALTA;
+     long estadaMinimaBAIXA;
 
     // Constructor
-    public Allotjament(String nom, String id, long estadaMinimaALTA, long estadaMinimaBAIXA) {
+    public Allotjament(String nom, String idAllotjament, long estadaMinimaALTA, long estadaMinimaBAIXA) {
         this.nom = nom;
-        this.idAllotjament = idAllotjament;
+        this.idAllotjament = idAllotjament;  // Canviat a `idAllotjament` per corregir l'error
         this.estadaMinimaALTA = estadaMinimaALTA;
         this.estadaMinimaBAIXA = estadaMinimaBAIXA;
     }
+
 
     public String getNom() {
         return nom;
