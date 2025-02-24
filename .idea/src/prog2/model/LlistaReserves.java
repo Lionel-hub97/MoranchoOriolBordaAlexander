@@ -5,17 +5,13 @@ package prog2.model;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import prog2.vista.ExcepcioReserva;
+import prog2.vista.*;
 
 public class LlistaReserves {
     private List<Object[]> reserves = new ArrayList<>();
 
 
-    public LlistaReserves(ArrayList<Reserva> reserves) {
-        this.reserves = new ArrayList<>();
-    }
-
-    public LlistaReserves(ArrayList<Reserva> reserves) {
+    public void LlistaReserves(ArrayList<Reserva> reserves) {
         this.reserves = new ArrayList<>();
     }
 
