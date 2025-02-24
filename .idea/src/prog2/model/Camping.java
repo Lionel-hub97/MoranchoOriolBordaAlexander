@@ -15,6 +15,9 @@ public class Camping {
     private int habitacions, placesPersones, placesParquing;
     private boolean connexioElectrica, terrassa, tv, aireFred, serveisExtra, casaMascota, terrassaBarbacoa;
 
+    public String getNom(String nom){
+        return nom;
+    }
 
 
     public void afegirParcela(String nom, String idAllotjament, float metres, boolean connexioElectrica) {
