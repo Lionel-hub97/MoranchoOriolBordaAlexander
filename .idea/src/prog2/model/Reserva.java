@@ -1,5 +1,6 @@
 package prog2.model;
 import prog2.model.Allotjament;
+import prog2.model.Client;
 import java.time.LocalDate;
 import java.util.*;
 /**
