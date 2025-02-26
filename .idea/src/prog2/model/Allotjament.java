@@ -1,6 +1,6 @@
 package prog2.model;
 
-public class Allotjament {
+public abstract class Allotjament implements InAllotjament{
      String nom;
      String idAllotjament;
      static long estadaMinimaALTA;
@@ -32,9 +32,15 @@ public class Allotjament {
         this.idAllotjament = idAllotjament;
     }
 
+    @Override
+    public void setEstadaMinima(long estadaMinimaALTA_, long estadaMinimaBAIXA_) {
+
+    }
 
 
-
+    public long getEstadaMinima(prog2.model.InAllotjament.Temp temp) {
+        return 0;
+    }
 
 
     public static long getEstadaMinima(Temp temp) {
