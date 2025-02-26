@@ -38,9 +38,6 @@ public abstract class Allotjament implements InAllotjament{
     }
 
 
-    public long getEstadaMinima(prog2.model.InAllotjament.Temp temp) {
-        return 0;
-    }
 
 
     public static long getEstadaMinima(Temp temp) {
