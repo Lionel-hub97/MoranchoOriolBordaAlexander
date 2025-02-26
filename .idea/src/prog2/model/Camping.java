@@ -12,6 +12,9 @@ public class Camping  implements InCamping{
     private ArrayList<Reserva> reserves;
     private ArrayList<Client> clients;
 
+    public Camping(String nom){
+        this.nom = nom;
+    }
     public Camping () {
         this.nom = "Camping del mar";
         this.allotjaments = new ArrayList<>();

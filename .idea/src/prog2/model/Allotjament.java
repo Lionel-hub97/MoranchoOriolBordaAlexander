@@ -1,6 +1,6 @@
 package prog2.model;
 
-public class Allotjament implements Comparable<Allotjament> {
+public class Allotjament {
      String nom;
      String idAllotjament;
      static long estadaMinimaALTA;
@@ -65,4 +65,3 @@ public class Allotjament implements Comparable<Allotjament> {
         return false;
     }
 }
-
