@@ -1,10 +1,10 @@
 package prog2.model;
 
-public class Allotjament {
-     String nom;
-     String idAllotjament;
-     static long estadaMinimaALTA;
-     static long estadaMinimaBAIXA;
+public abstract class Allotjament implements InAllotjament {
+    private String nom;
+    private String idAllotjament;
+    private static long estadaMinimaALTA;
+    private static long estadaMinimaBAIXA;
 
     // Constructor
     public Allotjament(String nom, String idAllotjament, long estadaMinimaALTA, long estadaMinimaBAIXA) {
@@ -13,6 +13,7 @@ public class Allotjament {
         this.estadaMinimaALTA = estadaMinimaALTA;
         this.estadaMinimaBAIXA = estadaMinimaBAIXA;
     }
+
     public enum Temp {ALTA, BAIXA};
 
 
@@ -32,11 +33,6 @@ public class Allotjament {
         this.idAllotjament = idAllotjament;
     }
 
-
-
-
-
-
     public static long getEstadaMinima(Temp temp) {
         switch (temp) {
             case ALTA:
@@ -44,7 +40,7 @@ public class Allotjament {
             case BAIXA:
                 return estadaMinimaBAIXA;
             default:
-                throw new IllegalArgumentException("Temporada no válida: " + temp);
+                throw new IllegalArgumentException("\nTemporada no válida\n");
         }
     }
 
@@ -57,11 +53,8 @@ public class Allotjament {
                 estadaMinimaBAIXA = estadaMinima;
                 break;
             default:
-
+                throw new IllegalArgumentException("\nTemporada no vàlida\n");
         }
     }
-    public boolean correcteFuncionament() {
-
-        return false;
-    }
+    abstract boolean correcteFuncionament();
 }
