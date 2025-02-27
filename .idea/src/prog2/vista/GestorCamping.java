@@ -1,8 +1,5 @@
-package prog2.model;
-
+package prog2.vista;
 import prog2.model.*;
-import prog2.vista.*;
-
 
 /**
  * Classe per gestionar els allotjaments del Càmping del Mar.
@@ -17,9 +14,9 @@ public class GestorCamping {
 
         Camping campingMar = new Camping("Camping del Mar");
 
-        omplirDadesModel(campingMar);
+        //omplirDadesModel(campingMar);
 
-        ferReserves(campingMar);
+        //ferReserves(campingMar);
 
 
 
@@ -48,7 +45,7 @@ public class GestorCamping {
      */
     private static void omplirDadesModel(Camping camping){
 
-
+        /*
         // Afegir parcel·les:
         //------------------------------
         String nom = "Parcel·la Nord";
@@ -187,7 +184,8 @@ public class GestorCamping {
      * Mètode per fer reserves d'allotjaments.
      * @param camping
      */
-    private static void ferReserves(Camping camping){
+
+    //private static void ferReserves(Camping camping){
 
         // Per completar:
 

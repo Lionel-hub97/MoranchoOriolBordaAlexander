@@ -36,6 +36,7 @@ public interface InAllotjament {
      * @param temp la temporada (ALTA o BAIXA).
      * @return el valor de l'estada mínima per a la temporada indicada.
      */
+    long getEstadaMinima(Temp temp);
 
     /**
      * Estableix l'estada mínima per a cada temporada.
@@ -54,4 +55,8 @@ public interface InAllotjament {
     /**
      * Enumeració que representa les diferents temporades possibles.
      */
+    public enum Temp {
+        ALTA,
+        BAIXA
+    }
 }
