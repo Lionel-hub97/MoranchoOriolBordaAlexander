@@ -1,73 +1,65 @@
 package prog2.model;
+import prog2.model.*;
 
-public abstract class Allotjament implements InAllotjament{
-     String nom;
-     String idAllotjament;
-     static long estadaMinimaALTA;
-     static long estadaMinimaBAIXA;
+public abstract class Allotjament {
 
-    // Constructor
-    public Allotjament(String nom, String idAllotjament, long estadaMinimaALTA, long estadaMinimaBAIXA) {
+    private String nom;
+    private String idAllotjament;
+    private static long estadaMinimaALTA;
+    private static long estadaMinimaBAIXA;
+
+    public Allotjament(String nom, String idAllotjament) {
         this.nom = nom;
-        this.idAllotjament = idAllotjament;  // Canviat a `idAllotjament` per corregir l'error
-        this.estadaMinimaALTA = estadaMinimaALTA;
-        this.estadaMinimaBAIXA = estadaMinimaBAIXA;
+        this.idAllotjament = idAllotjament;
     }
-    public enum Temp {ALTA, BAIXA};
 
+    // Implementació de la interfície
 
     public String getNom() {
         return nom;
     }
 
+
     public void setNom(String nom) {
         this.nom = nom;
     }
+
 
     public String getId() {
         return idAllotjament;
     }
 
+
     public void setId(String idAllotjament) {
         this.idAllotjament = idAllotjament;
     }
 
-    @Override
-    public void setEstadaMinima(long estadaMinimaALTA_, long estadaMinimaBAIXA_) {
 
+    enum Temp {
+        ALTA,
+        BAIXA
     }
 
-
-    public long getEstadaMinima(prog2.model.InAllotjament.Temp temp) {
-        return 0;
-    }
-
-
-    public static long getEstadaMinima(Temp temp) {
+    public long getEstadaMinima(Temp temp) {
         switch (temp) {
             case ALTA:
                 return estadaMinimaALTA;
             case BAIXA:
                 return estadaMinimaBAIXA;
             default:
-                throw new IllegalArgumentException("Temporada no válida: " + temp);
+                throw new IllegalArgumentException("Temporada no vàlida");
         }
     }
 
-    public void setEstadaMinima(Temp temp, long estadaMinima) {
-        switch (temp) {
-            case ALTA:
-                estadaMinimaALTA = estadaMinima;
-                break;
-            case BAIXA:
-                estadaMinimaBAIXA = estadaMinima;
-                break;
-            default:
 
-        }
+    public void setEstadaMinima(long estadaMinimaALTA_, long estadaMinimaBAIXA_) {
+        estadaMinimaALTA = estadaMinimaALTA_;
+        estadaMinimaBAIXA = estadaMinimaBAIXA_;
     }
+
+    // Aquest mètode és abstracte perquè cada subclasse el definirà a la seva manera.
+
     public boolean correcteFuncionament() {
-
         return false;
     }
 }
